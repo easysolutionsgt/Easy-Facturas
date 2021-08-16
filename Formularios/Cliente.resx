@@ -61,7 +61,7 @@
   <data name="Button7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAD
-        4wAAA+MBPEh7YwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA4GSURBVHhe7Z1L
+        4AAAA+ABkfFaDgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA4GSURBVHhe7Z1L
         jBzFHcYN6zgojiwikQOSDUhcySEIJA5G8bx27bVPUR6HBEURp9wQIDmHHMA2TnLhhI8ICSmKIFJuQVGE
         iJwoGMkcHI+99hg/kyjO+oFjwGvHa+/k+9rbS0/N1zP9qO6unqmWfqz3z07Vv+r/db26pnpdv9+fOP6x
         a+cm8BT4EdgDfgP+AP4KjoCz4DL43yr8N238f/wb/i0/w88yDaa1SeVVd6SxTiAwG8Ec+DX4M/g36BcE
@@ -545,6 +545,12 @@
         C3ICtWEAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>47</value>
+  </metadata>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/4QBKRXhpZgAATU0AKgAAAAgAAYKYAAIAAAAnAAAAGgAAAABGcmVl

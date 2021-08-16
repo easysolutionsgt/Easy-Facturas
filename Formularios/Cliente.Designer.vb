@@ -54,8 +54,20 @@ Partial Class Cliente
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.InicioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InicioToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TransaccionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CargarFacturaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ImprimirFactruraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ModificarPlantillaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AcercaDeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AcercaDeToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'DateTimePicker1
@@ -93,7 +105,7 @@ Partial Class Cliente
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.DateTimePicker1)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 4)
+        Me.GroupBox1.Location = New System.Drawing.Point(10, 21)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(741, 420)
         Me.GroupBox1.TabIndex = 1
@@ -393,24 +405,104 @@ Partial Class Cliente
         Me.TextBox1.Size = New System.Drawing.Size(101, 23)
         Me.TextBox1.TabIndex = 1
         '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InicioToolStripMenuItem, Me.TransaccionesToolStripMenuItem, Me.AcercaDeToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(759, 24)
+        Me.MenuStrip1.TabIndex = 5
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'InicioToolStripMenuItem
+        '
+        Me.InicioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SalirToolStripMenuItem1, Me.InicioToolStripMenuItem1})
+        Me.InicioToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.InicioToolStripMenuItem.Name = "InicioToolStripMenuItem"
+        Me.InicioToolStripMenuItem.Size = New System.Drawing.Size(48, 20)
+        Me.InicioToolStripMenuItem.Text = "Inicio"
+        '
+        'SalirToolStripMenuItem1
+        '
+        Me.SalirToolStripMenuItem1.Name = "SalirToolStripMenuItem1"
+        Me.SalirToolStripMenuItem1.Size = New System.Drawing.Size(136, 22)
+        Me.SalirToolStripMenuItem1.Text = "Donaciones"
+        '
+        'InicioToolStripMenuItem1
+        '
+        Me.InicioToolStripMenuItem1.Name = "InicioToolStripMenuItem1"
+        Me.InicioToolStripMenuItem1.Size = New System.Drawing.Size(136, 22)
+        Me.InicioToolStripMenuItem1.Text = "Salir"
+        '
+        'TransaccionesToolStripMenuItem
+        '
+        Me.TransaccionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CargarFacturaToolStripMenuItem, Me.ImprimirFactruraToolStripMenuItem, Me.ModificarPlantillaToolStripMenuItem})
+        Me.TransaccionesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.TransaccionesToolStripMenuItem.Name = "TransaccionesToolStripMenuItem"
+        Me.TransaccionesToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
+        Me.TransaccionesToolStripMenuItem.Text = "Utilidades"
+        '
+        'CargarFacturaToolStripMenuItem
+        '
+        Me.CargarFacturaToolStripMenuItem.Name = "CargarFacturaToolStripMenuItem"
+        Me.CargarFacturaToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.CargarFacturaToolStripMenuItem.Text = "Cargar Factura"
+        '
+        'ImprimirFactruraToolStripMenuItem
+        '
+        Me.ImprimirFactruraToolStripMenuItem.Name = "ImprimirFactruraToolStripMenuItem"
+        Me.ImprimirFactruraToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.ImprimirFactruraToolStripMenuItem.Text = "Imprimir Factrura"
+        '
+        'ModificarPlantillaToolStripMenuItem
+        '
+        Me.ModificarPlantillaToolStripMenuItem.Name = "ModificarPlantillaToolStripMenuItem"
+        Me.ModificarPlantillaToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.ModificarPlantillaToolStripMenuItem.Text = "Modificar Plantilla"
+        '
+        'AcercaDeToolStripMenuItem
+        '
+        Me.AcercaDeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AyudaToolStripMenuItem, Me.AcercaDeToolStripMenuItem1})
+        Me.AcercaDeToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.AcercaDeToolStripMenuItem.Name = "AcercaDeToolStripMenuItem"
+        Me.AcercaDeToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
+        Me.AcercaDeToolStripMenuItem.Text = "Acerca De"
+        '
+        'AyudaToolStripMenuItem
+        '
+        Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
+        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.AyudaToolStripMenuItem.Text = "Ayuda"
+        '
+        'AcercaDeToolStripMenuItem1
+        '
+        Me.AcercaDeToolStripMenuItem1.Name = "AcercaDeToolStripMenuItem1"
+        Me.AcercaDeToolStripMenuItem1.Size = New System.Drawing.Size(126, 22)
+        Me.AcercaDeToolStripMenuItem1.Text = "Acerca de"
+        '
         'Cliente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(759, 428)
+        Me.ClientSize = New System.Drawing.Size(759, 445)
+        Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Cliente"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Crear Cliente"
+        Me.Text = "Easy | Crear Cliente"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -445,4 +537,15 @@ Partial Class Cliente
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents InicioToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SalirToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents InicioToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents TransaccionesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CargarFacturaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ImprimirFactruraToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ModificarPlantillaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AcercaDeToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AyudaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AcercaDeToolStripMenuItem1 As ToolStripMenuItem
 End Class

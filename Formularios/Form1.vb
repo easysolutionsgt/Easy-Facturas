@@ -12,4 +12,15 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub btnImprimirFac_Click(sender As Object, e As EventArgs) Handles btnImprimirFac.Click
+        ImprimirDoc.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnCargarFac_Click(sender As Object, e As EventArgs) Handles btnCargarFac.Click
+        CargarFac.Show()
+        Me.Hide()
+    End Sub
 End Class
